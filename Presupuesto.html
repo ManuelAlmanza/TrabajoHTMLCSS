@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" >
+    <title>Formulario para ser socio</title>
+    <link rel="stylesheet" type="text/css" href="../css/EstiloPresupuesto.css"> 
+</head>
+<body>
+    <header>
+        <div>
+            <img class="img_cabecera" src="../images/LogoCabecera.jpg" alt="Imagen de cabecera" 
+            title="Imagen de cabecera">
+        </div>
+        <nav>
+         <!--Div que contiene el menú de navegación-->
+            <div class="div_menu">
+                <span class="botonin">
+                    <a href="../index.html" class="div_menu">Inicio</a>
+                </span>
+                <span class="boton">
+                    <a href="Productos.html" class="div_menu">Productos</a>
+                </span>
+                <span id="botonpresupuesto" class="boton">
+                    <a href="Presupuesto.html" class="div_menu">Presupuesto</a>
+                </span>
+                <span class="boton">
+                    <a href="Contacto.html" class="div_menu">Contacto</a>
+                </span>
+            </div>
+        </nav>
+    </header>
+    <form>
+        <p>Introduce tus datos para crear una cuenta barça:</p>
+        <table>
+            <tr>
+                <td>Nombre:</td>
+                <td><input type="text" id="username" name="username" required></td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td><input type="text" id="email" name="email" required></td>
+            </tr>
+            <tr>
+                <td>Teléfono:</td>
+                <td><input type="tel" id="telefono" name="telefono" required></td>
+            </tr>
+            <tr>
+                <td>Observaciones:</td>
+                <td><textarea></textarea></td>
+            </tr>
+            <tr>
+                <td>Política de privacidad:</td>
+                <td><input type="checkbox" id="checkbox" name="checkbox" required></td>
+            </tr>
+            <tr>
+                <td><input type="submit" id="enviar" name="enviar"></td>
+                <td><input type="reset" id="borrar" name="borrar"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
